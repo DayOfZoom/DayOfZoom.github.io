@@ -1,0 +1,176 @@
+p{
+  color:black;
+  font-size:22px;
+
+
+}
+
+
+.listitem{
+	color:darkblue;
+	font-size: 20px;
+}
+
+
+.question{
+
+  color: blue;
+  font-size: 1.5em;
+
+}
+
+.wrap-list{
+	width:45%;
+	border-radius:10px;
+	border:5px double;
+	background-color:#f2f2f2;   
+	padding:5;
+
+}
+
+.trivia{
+	height:300px;
+	width:450px;
+	border:5px double #737373;
+	background-color:#f2f2f2;
+	padding:10px;
+}
+
+
+.EXE1{
+	color:black;
+	font-weight:bold;
+}
+
+.EXE2{
+	color:black;
+	font-weight:bold;
+}
+
+
+.EXE3{
+	color:black;
+	font-weight:bold;
+}
+
+
+
+ #background{
+  background-color:white;
+}
+
+
+#button {
+	width:90px;
+	height:40px;
+	color:white;
+	background-color:orange;
+	border-radius:25px;
+	font-size:.9em;
+}
+
+
+#banner {
+	height:85;
+	width:99%;
+	border:5px double; solid black;
+	background-color:#f2f2f2;
+	border-radius: 15px;
+    text-align: center;
+    margin-bottom: 100px;
+}  
+
+
+
+#footer{
+    height: 80;
+    width: 99%;
+    border: 2px double black;
+    background-color:#f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+#one{
+	height: 150px;
+	width: 150px;
+	background-color:orange;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	left:25%;
+}
+
+#two{
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+}
+
+#three{
+	height: 150px;
+	width: 150px;
+	background-color: green;
+	display: inline-block;
+	position: fixed;
+	top: 750px;
+}
+
+#background-h{
+	height:2048;
+}
+
+.navitem{
+	list-style-type: none;
+	display: inline;
+	margin-right: .5em;
+	padding: 2px 5px;
+	border:5px double black;
+	background-color:gray;
+	border-radius: 15px;
+
+}
+
+#navmenu{
+	text-align: center;
+	background-color: ;
+	color:white;
+	border: 5px;
+	border-radius: 10px;
+
+}	
+
+a:link{
+	color:blue;
+}
+
+a:visited{
+	color:red;
+}
+
+a:hover{
+	color:purple;
+}
+
+a:active{
+	color:orange;
+}
+
+.rightside{
+	float:right;
+	width:48%;
+}
+
+.leftside{
+	width:48%;
+
+}
+
+.clearfloat{
+	clear:both;
+
+}

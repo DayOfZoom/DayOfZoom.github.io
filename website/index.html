@@ -1,0 +1,115 @@
+<html>
+  <head>
+
+    <link type="text/css" rel="stylesheet" href="main.css" />
+     <title>How computer are helpful</title>
+      <script>
+       function banner(){
+        var text = confirm("Did you really want to click on my banner?");
+        return text;
+       }
+
+          function answer(){
+          var radio = document.getElementsByName("trivia");
+          var selection = false;
+          var message = "";
+
+          for( var i = 0; i < radio.length; i++) {
+          if(radio[i].value == "yes" && radio[i].checked == true) {
+            selection = true;
+        } //end if statement
+      } //end for loop
+
+      if(selection == true) {
+        message = message + "<b><p style='color:green'>Way to go!</p></b>";
+      } else {
+        message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+      }
+        document.getElementById("response").innerHTML = message;
+
+      } //end function answer
+       
+
+      </script>
+
+ <head>
+ <body id="background">
+   <a onclick="return banner()" href="">
+    <header id="banner"> <u> <h1> How are computers helpful?</h1></u> </header>
+   </a>
+  <nav>
+    <ul id="navmenu">
+      <li class="navitem"> <a href="index.html">Home</a> </li>
+      <li class="navitem"> <a href="trivia.html">trivia</a> </li>
+      <li class="navitem"> <a href="videos.html">Videos</a> </li>
+</ul>
+  </nav>
+
+
+    
+    <div class="rightside">
+
+  <hr/>
+    
+        <span class="EXE3">This video will give you some helpful tips to help you use you'r computer</span>
+ <br/>
+     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WXpZD5uYfOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  
+
+      <div class="trivia"> 
+        <h2>Computer Program Trivia Question:</h2>
+        <p class="question">Which computer language is an acronym of the name of the world's first computer programmer?</p>
+          
+        <form>
+          <div id="response"></div>
+          <input type="radio" name="trivia" value="no"> DDA </br>
+          <input type="radio" name="trivia" value="no"> AAA </br>
+          <input type="radio" name="trivia" value="no"> DAA </br>
+          <input type="radio" name="trivia" value="yes"> ADA </br>
+
+          <input onclick="answer()" id="button" type="button" value="Click Here!">
+      </div>
+        
+
+  </div><!--- closing rightside div -->
+
+    <div class="leftside">
+
+   <h1>How computers can help you</h1>
+   <p>
+      <i>Computers can help you with so many different thing's,</i> and they have gotten so <b>much more helpful over the years.</b> They can help you with <u> writing papers</U>, <u>organizing</u>, <u>planning</u>, and <u>just having fun</u>. This website is going to tell you about all the things computers can help you with.
+
+   
+   </p>
+     <h2> Here is a list of how computer can help you </h2>
+<div class="wrap-list">
+  <ol>
+    <li class="listitem">A computer can help you with wrighting pappers for your school.</li>
+    <li class="listitem">A cpmputer can help you plan out what you are going to be doing for the year.</li>
+    <li class="listitem">A computer can also help you with your work</li> 
+    <li class="listitem">A computer can also help you stay connected with friends and famly</li>
+    <li class="listitem">A computer can also help pass the time by playing games on them and watching movies and licning to music.</li>
+  </ol>
+</div>
+   here is some examples of how they are helpful
+  <hr/>
+   <span class="EXE1"> is a example of students using computers to help with there school.</span>
+  <br/> 
+    <img width="50%" src="https://thumbs.dreamstime.com/z/group-students-training-computers-young-doing-course-33762820.jpg" />
+  <br/>
+  <br/>
+   <span class="EXE2"> here is another example of cowrokers using computers for there work they are doing.</span>
+  <br/>
+    <img width="50%" src="https://thumbs.dreamstime.com/z/businessman-woman-working-computers-20595203.jpg" />
+
+</div> <!--- closing leftside div -->
+          <br>
+
+        <center> here is a helpful website for even more tips and tricks to help you use your computer faster and easier </center>
+           <a  href="https://www.techspot.com/guides/676-best-computer-tricks/"> <center>click here for a helpful tips and tricks website</center> </a>
+          <div class="clearfloat"></div>
+        
+   <footer id="footer"> <h1> <i> Website made by Isaac Harrod </i> </h1> </footer>
+ </body>
+</html>
